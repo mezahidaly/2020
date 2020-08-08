@@ -45,6 +45,7 @@ nav li a{
 	margin-top: 9rem;
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .text{
 	width: 400px;
