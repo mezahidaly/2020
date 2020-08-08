@@ -132,7 +132,7 @@ form button {
 	color: white;
 	cursor: pointer;
 }
-form button:hover {
+form button:focus {
 	outline: none;
 }
 
