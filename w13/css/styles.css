@@ -1,0 +1,73 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+#topbar {
+	padding: 10px;
+	color: white;
+	font-weight: 600;
+	background-color: black;
+}
+i {
+	color: #34c1af;
+	margin: 5px;
+}
+.navbar-light .navbar-nav .nav-link {
+	overflow: hidden;
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    border-bottom: 2px solid #34c1af;
+	overflow: hidden;
+	color: #000;
+}
+nav {
+	width: 100%;
+	text-align: center;
+}
+.navbar{
+	text-align: right;
+	justify-content: space-around;
+}
+.navbar-light .navbar-brand a h2 span{
+	color: #34c1af !important;
+}
+.navbar-brand {
+	margin-right: 10px;
+}
+#slider {
+	background: url('../img/bg.jpg') center;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	height: 640px;
+}
+.sl-head{
+	padding-top: 15rem;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.sl-head h2{
+	font-size: 4.5rem;
+	font-weight: 200;
+}
+.sl-head p{
+	font-size: 1.2rem;
+}
+.alpha {
+	background: rgba(0,0,0,0.4);
+	height: 640px;
+}
+
+.mybtn {
+	background: #33dbc6;
+	border-radius: 30px;
+	color: #000;
+	padding: 15px;
+	width: 160px;
+}
+
+@media (max-width: 768px){
+	.sl-head{
+	padding-top: 8rem;}
+}
