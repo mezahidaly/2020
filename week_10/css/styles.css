@@ -132,6 +132,9 @@ form button {
 	color: white;
 	cursor: pointer;
 }
+form button:hover {
+	outline: none;
+}
 
 
 /*task two Styles goes here*/
