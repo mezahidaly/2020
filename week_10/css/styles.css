@@ -1,8 +1,6 @@
 body {
 	margin: 0px;
 	font-family: 'Roboto', sans-serif;
-	overflow-y: hidden;
-	overflow-x: hidden;
 }
 #slider {
 	background-color: #3f98e2;
@@ -13,17 +11,6 @@ body {
 }
 nav {
 	height: 50px !important;
-}
-#slider::after {
-    content: "";
-    position: absolute;
-    top: 92%;
-    left: 10%;
-    height: 100%;
-    width: 100%;
-    background: white;
-    transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg)
 }
 .navbar p{
 	width: 30%;
