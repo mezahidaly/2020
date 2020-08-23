@@ -1,0 +1,108 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+#navbar {
+  background-color: rgba(0,0,0,0.9);
+  height: 72px;
+  width: 100%;
+  margin: 0;
+  z-index: 50;
+  width: 100%;
+  border-radius: 0;
+  z-index: 50;
+  display: center-block;
+}
+.navbar-brand{
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+}
+#navbar ul li a {
+  color: #fff;
+  letter-spacing: 1;
+  font-weight: 500;
+}
+#navbar ul li a:hover {
+  background-color: transparent;
+}
+#navbar ul li a:focus {
+  background-color: transparent;
+  outline: none;
+}
+#navbar ul li #donate-btn {
+  background-color: #b3b5b3;
+  border-radius: 1px;
+  border-bottom: 2px solid #abadab;
+  border-left: 2px solid #abadab;
+}
+#navbar ul li.active {
+  background-color: rgba(171,173,171,0.7);
+  color: #fff;
+  border-radius: 2px;
+  transition: 0.2s all;
+}
+@media (max-width: 767px) {
+  #navbar {
+    background-color: #000;
+  }
+  #navbar .main-navbar {
+    background-color: rgba(0,0,0,0.9);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden !important;
+    box-shadow: none;
+  }
+  #navbar .main-navbar ul {;
+    padding: 10px;
+  }
+  .navbar-default .navbar-nav>li>a{;
+    text-align: center !important;
+    border: 1px solid #000;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  #navbar button {
+    background-color: #abadab;
+    color: #fff;
+  }
+}
+
+#navbar ul li a {
+  color: #fff;
+  font-weight: 700;
+  top: 7px;
+}
+#navbar ul li a:hover {
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.2s all;
+}
+#navbar ul li a:active {
+  background-color: #b93a2b;
+}
+#navbar ul li a:focus {
+  border-radius: 5px;
+  color: #fff;
+  background-color: #b93a2b;
+}
+.slider-bg h1{
+  font-weight: 800;
+}
+.menu {
+  background-color: #eeeded;
+  padding: 20px;
+  margin: 10px;
+}
+.menu h3{
+  font-size: 30px;
+  font-weight: 600;
+}
+.menu p{
+  padding: 20px;
+  font-size: 18px;
+  letter-spacing: 1.4;
+  line-height: 24px;
+}
+
